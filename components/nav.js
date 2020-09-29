@@ -52,7 +52,7 @@ export default function Nav({ categories }) {
             </IconButton>
           </Link>
           <Typography variant="h6" className={classes.title}>
-            Devtones
+            Blogtones
           </Typography>
           <Link href="/about">
             <Button className={classes.menuButton}>About</Button>
