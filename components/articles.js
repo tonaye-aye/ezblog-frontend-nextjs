@@ -13,12 +13,15 @@ const useStyles = makeStyles((theme) => ({
 const Articles = ({ articles }) => {
   const classes = useStyles();
 
-  articles = articles.reverse();
+  const reversedArticles = [...articles].reverse();
   //console.log(articles);
 
-  const leftArticlesCount = Math.ceil(articles.length / 3);
-  const leftArticles = articles.slice(0, leftArticlesCount);
-  const rightArticles = articles.slice(leftArticlesCount, articles.length);
+  const leftArticlesCount = Math.ceil(reversedArticles.length / 3);
+  const leftArticles = reversedArticles.slice(0, leftArticlesCount);
+  const rightArticles = reversedArticles.slice(
+    leftArticlesCount,
+    reversedArticles.length
+  );
 
   return (
     <div className={classes.root}>

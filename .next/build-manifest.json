@@ -28,21 +28,6 @@
       "static/runtime/main.js",
       "static/runtime/webpack.js",
       "static/pages/_error.js"
-    ],
-    "/about": [
-      "static/runtime/main.js",
-      "static/runtime/webpack.js",
-      "static/pages/about.js"
-    ],
-    "/article/[id]": [
-      "static/runtime/main.js",
-      "static/runtime/webpack.js",
-      "static/pages/article/[id].js"
-    ],
-    "/category/[id]": [
-      "static/runtime/main.js",
-      "static/runtime/webpack.js",
-      "static/pages/category/[id].js"
     ]
   },
   "ampFirstPages": []
