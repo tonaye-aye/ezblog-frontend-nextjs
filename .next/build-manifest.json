@@ -17,7 +17,8 @@
     "/": [
       "static/runtime/main.js",
       "static/runtime/webpack.js",
-      "static/pages/index.js"
+      "static/pages/index.js",
+      "static/webpack/static/pages/index.7d97465e7657006fac3b.hot-update.js"
     ],
     "/_app": [
       "static/runtime/main.js",
@@ -28,6 +29,12 @@
       "static/runtime/main.js",
       "static/runtime/webpack.js",
       "static/pages/_error.js"
+    ],
+    "/article/[id]": [
+      "static/runtime/main.js",
+      "static/runtime/webpack.js",
+      "static/pages/article/[id].js",
+      "static/webpack/static/pages/article/[id].7d97465e7657006fac3b.hot-update.js"
     ]
   },
   "ampFirstPages": []
